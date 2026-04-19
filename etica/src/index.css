@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-bg-dark: #0a0a0a;
+  --color-card-dark: #121212;
+  --color-accent-teal: #14b8a6;
+  --color-accent-rose: #f43f5e;
+  --color-text-dim: #888888;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-dark);
+    color: #ffffff;
+    @apply antialiased selection:bg-teal-500/30;
+  }
+
+  /* Neumorphism Subtle */
+  .neu-flat {
+    background: #121212;
+    box-shadow: 4px 4px 10px #050505, -4px -4px 10px #1f1f1f;
+  }
+
+  .neu-inset {
+    background: #121212;
+    box-shadow: inset 4px 4px 10px #050505, inset -4px -4px 10px #1f1f1f;
+  }
+
+  .neu-button {
+    background: #121212;
+    box-shadow: 3px 3px 7px #050505, -3px -3px 7px #1f1f1f;
+    @apply transition-all active:shadow-inner active:scale-95 duration-200;
+  }
+
+  .atmosphere-dark {
+    background: 
+      radial-gradient(circle at 50% -20%, #1e1e1e 0%, transparent 70%),
+      radial-gradient(circle at 80% 80%, #14b8a610 0%, transparent 50%);
+    @apply fixed inset-0 -z-10 pointer-events-none;
+  }
+}
