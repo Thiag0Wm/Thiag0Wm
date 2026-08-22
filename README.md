@@ -54,7 +54,7 @@ O projeto está em evolução e receberá novas funcionalidades conforme avanço
 
 
 
-</div>
+
 
 ## 🤝 Entre em contato
 
