@@ -52,13 +52,7 @@ O projeto está em evolução e receberá novas funcionalidades conforme avanço
 * 🧠 Lógica e boas práticas de programação
 * 🔀 Git e GitHub
 
-## 📊 Estatísticas
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Thiag0Wm&show_icons=true&hide_border=true&theme=github_dark">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thiag0Wm&layout=compact&hide_border=true&theme=github_dark">
 
 </div>
 
